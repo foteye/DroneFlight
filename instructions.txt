@@ -3,7 +3,8 @@ You can use any technology/language you want to solve the issue - if you can mak
 The input to provide the drone is attached - Let me know if you have any questions or issues. 
 Good Luck
 **To Solve**
-Blue Flag has an aerial drone which it uses to take photographs of billboards. Instructions are sent to the drone in a simple language that tells the drone which direction to move and when to take a photo. Moves are always exactly 1 km to the north (^), south (v), east (>) or west (<) or take a photograph (x).
+Blue Flag has an aerial drone which it uses to take photographs of billboards. Instructions are sent to the drone in a simple language that tells the drone which direction to move 
+and when to take a photo. Moves are always exactly 1 km to the north (^), south (v), east (>) or west (<) or take a photograph (x).
 Unfortunately, the instruction processor is not perfect yet so the drone may photograph the same billboard multiple times.
 How many billboards are photographed at least once? (Note: The input to use to solve this is attached.)
 For example:
