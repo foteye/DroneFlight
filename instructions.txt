@@ -1,0 +1,13 @@
+As part of our recruitment process, candidates are asked to show off their skills with a Drone Challenge.
+You can use any technology/language you want to solve the issue - if you can make it easy to compile or run simply that would be great (we use GitHub internally here) - extra points for anything interesting or novel is highly regarded.
+The input to provide the drone is attached - Let me know if you have any questions or issues. 
+Good Luck
+**To Solve**
+Blue Flag has an aerial drone which it uses to take photographs of billboards. Instructions are sent to the drone in a simple language that tells the drone which direction to move and when to take a photo. Moves are always exactly 1 km to the north (^), south (v), east (>) or west (<) or take a photograph (x).
+Unfortunately, the instruction processor is not perfect yet so the drone may photograph the same billboard multiple times.
+How many billboards are photographed at least once? (Note: The input to use to solve this is attached.)
+For example:
+- x^xv takes photos of 2 billboards and ends up back at the starting location
+- x^^x>>xvvx<<x takes photos of 4 billboards, including 2 photos of the same billboard at the starting location
+Next Steps:
+When you submit your solution, our Dev team will review your solution and then we will commence the interview process.
