@@ -110,7 +110,7 @@ class Drone {
             var iterAxis = "x";
         }
         
-        for (var i = this.returnObject.min[iterAxis]; i < (this.returnObject.max[iterAxis] - this.returnObject.min[iterAxis]); i++){
+        for (var i = 0; i < (this.returnObject.max[iterAxis] - this.returnObject.min[iterAxis]); i++){
             var newCoords = {[axis]: this.currentCoordinates[axis], [iterAxis]: i};
             var orderedCoords = {};
             Object.keys(newCoords).sort().forEach(function(key) {
