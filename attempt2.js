@@ -102,16 +102,16 @@ class Drone {
 
     updateBounds(axis){
         // if (new x max or min){ then create y diff amounts of [xmax/xmin, every Y]   }
-        // if (new y max or min){ then create y diff amounts of [xmax/xmin, every Y] }
+        // if (new y max or min){ then create x diff amounts of [ymax/ymin, every X] }
         // 
         if (axis == "x"){
-            var iterAxis = "y";
+            var otherAxis = "y";
         } else {
-            var iterAxis = "x";
+            var otherAxis = "x";
         }
         
-        for (var i = 0; i < (this.returnObject.max[iterAxis] - this.returnObject.min[iterAxis]); i++){
-            var newCoords = {[axis]: this.currentCoordinates[axis], [iterAxis]: i};
+        for (var i = this.returnObject.min[otherAxis]; i < this.returnObject.max[otherAxis]; i++){
+            var newCoords = {[axis]: this.currentCoordinates[axis], [otherAxis]: i};
             var orderedCoords = {};
             Object.keys(newCoords).sort().forEach(function(key) {
                 orderedCoords[key] = newCoords[key];
